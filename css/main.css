@@ -1,0 +1,232 @@
+/*************************
+GENERAL
+*************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+
+/*************************
+HEADER
+*************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+
+/*************************
+NAVIGATION
+*************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+/*************************
+FOOTER
+*************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+
+
+
+/*************************
+PAGE: PORTFOLIO
+*************************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #014A55;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #00363D;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #fff;
+}
+
+
+/*************************
+PAGE: ABOUT
+*************************/
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+  border: 2px solid #00363D;
+}
+
+
+
+
+/*************************
+PAGE: CONTACT
+*************************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.email a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png');
+}
+
+
+
+/*************************
+COLORS
+*************************/
+
+/*Color Palette Codes*/
+.color-primary-0 { color: #05616E } /* Main Primary color */
+.color-primary-1 { color: #65B8C4 }
+.color-primary-2 { color: #358B97 }
+.color-primary-3 { color: #014A55 }
+.color-primary-4 { color: #00363D }
+
+.rgba-primary-0 { color: rgba(  5, 97,110,1) }  /* Main Primary color */
+.rgba-primary-1 { color: rgba(101,184,196,1) }
+.rgba-primary-2 { color: rgba( 53,139,151,1) }
+.rgba-primary-3 { color: rgba(  1, 74, 85,1) }
+.rgba-primary-4 { color: rgba(  0, 54, 61,1) }
+
+/* site body */
+body {
+  background-color: #05616E;
+  color: #fff;
+}
+
+header {
+  background: #014A55;  
+}
+/* nav background on mobile devices */
+nav {
+  background: #00363D;
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+h3 {
+  color: #fff;
+}
+
+a {
+  color: #65B8C4;
+}
+
+/* color for nav links */
+nav a, nav a:visited {
+  color: #fff;
+}
+/* selected nav link color */
+nav a.selected, nav a:hover {
+  color: #358B97;
+}
