@@ -24,6 +24,9 @@ h3 {
   margin: 0 0 1em 0;
 }
 
+.rounded {
+  border-radius: 50%;
+}
 
 
 /*************************
@@ -116,7 +119,7 @@ PAGE: PORTFOLIO
   float: left;
   width: 45%;
   margin: 2.5%;
-  background-color: #014A55;
+  background-color: #125CA3;
   color: #fff;
   border-radius: 5px;
   box-shadow: 5px 5px 5px #00363D;
@@ -138,8 +141,7 @@ PAGE: ABOUT
   display: block;
   max-width: 150px;
   margin: 0 auto 30px;
-  border-radius: 100%;
-  border: 2px solid #00363D;
+  border: 2px solid #00305A;
 }
 
 
@@ -184,11 +186,17 @@ COLORS
 *************************/
 
 /*Color Palette Codes*/
-.color-primary-0 { color: #05616E } /* Main Primary color */
-.color-primary-1 { color: #65B8C4 }
-.color-primary-2 { color: #358B97 }
-.color-primary-3 { color: #014A55 }
-.color-primary-4 { color: #00363D }
+.darkblue-text { color: #00305A } /* Main Primary color */
+.midblue-text { color: #125CA3 }
+.lightblue-text { color: #0074D9 }
+.darkgrey-text { color: #58595B }
+.lightgrey-text { color: #808080 }
+
+.darkblue-bg { color: #00305A } /* Main Primary color */
+.midblue-bg { color: #125CA3 }
+.lightblue-bg { color: #0074D9 }
+.darkgrey-bg { color: #58595B }
+.lightgrey-bg { color: #808080 }
 
 .rgba-primary-0 { color: rgba(  5, 97,110,1) }  /* Main Primary color */
 .rgba-primary-1 { color: rgba(101,184,196,1) }
@@ -198,16 +206,16 @@ COLORS
 
 /* site body */
 body {
-  background-color: #05616E;
+  background-color: #808080;
   color: #fff;
 }
 
 header {
-  background: #014A55;  
+  background: #125CA3;  
 }
 /* nav background on mobile devices */
 nav {
-  background: #00363D;
+  background: #00305A;
 }
 
 h1, h2 {
@@ -228,5 +236,5 @@ nav a, nav a:visited {
 }
 /* selected nav link color */
 nav a.selected, nav a:hover {
-  color: #358B97;
+  color: #0074D9;
 }
