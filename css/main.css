@@ -119,16 +119,20 @@ PAGE: PORTFOLIO
   float: left;
   width: 45%;
   margin: 2.5%;
-  background-color: #125CA3;
-  color: #fff;
   border-radius: 5px;
-  box-shadow: 5px 5px 5px #00363D;
+}
+
+#gallery li a img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 #gallery li a p {
   margin: 0;
   padding: 5%;
-  font-size: 0.75em;
+  text-align: center;
+  /*font-size: 1em;*/
+  font-weight: bold;
   color: #fff;
 }
 
@@ -206,16 +210,17 @@ COLORS
 
 /* site body */
 body {
-  background-color: #808080;
+  background-color: #ddd;
   color: #fff;
 }
 
 header {
-  background: #125CA3;  
+  background: #808080;
+  border-bottom: #58595B;  
 }
 /* nav background on mobile devices */
 nav {
-  background: #00305A;
+  background: #58595B;
 }
 
 h1, h2 {
@@ -223,11 +228,15 @@ h1, h2 {
 }
 
 h3 {
-  color: #fff;
+  color: #58595B;
+}
+
+p {
+  color: #58595B;
 }
 
 a {
-  color: #65B8C4;
+  color: #0074D9;
 }
 
 /* color for nav links */
@@ -235,6 +244,18 @@ nav a, nav a:visited {
   color: #fff;
 }
 /* selected nav link color */
+
+
 nav a.selected, nav a:hover {
-  color: #0074D9;
+  color: #808080;
+}
+
+/*nav a.selected {
+  color: #fff;
+} */
+
+#gallery li {
+  color: #fff;
+  background-color:#58595B;
+  /*box-shadow: 3px 3px 5px #00305A;*/
 }

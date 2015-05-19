@@ -46,11 +46,20 @@
     background: none;
     float: right;
     font-size: 1.125em;
+    /*margin-top: 4%;*/
     margin-right: 5%;
     text-align: right;
     width: 45%;
   }
-  
+nav a.selected, nav a:hover {
+  color: #58595B;
+}
+/*
+  nav a.selected {
+    background-color: #00305A;
+    border-radius: 5px 5px 0 0;
+  }
+  */
   #logo {
     float: left;
     margin-left: 5%;
@@ -67,8 +76,8 @@
     margin-bottom: 20px;
   }
   
-  header {
-    border-bottom: 5px solid #00363D;
+  header { 
+    border-bottom: 8px solid #58595B;  
     margin-bottom: 60px;
   }
 }
